@@ -1,0 +1,99 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.cash-withdrawl-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #382f5a;
+  border-radius: 10px;
+  border-color: #382f5a;
+  width: 30%;
+  outline: none;
+  border-style: solid;
+}
+
+.user-name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.user-initial {
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  color: #7c3aed;
+  padding: 8px 16px 10px 16px;
+  margin: 10px;
+}
+
+.user-name {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+}
+
+.your-balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.rupees {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.rupees-description {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.choose-sum-description {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
